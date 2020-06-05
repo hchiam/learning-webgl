@@ -2,7 +2,7 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-Tutorial: <https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial>
+Tutorials: <https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial> and <https://webglfundamentals.org>
 
 Use your GPU to draw/animate 2D and 3D stuff in a `<canvas>`. More math-y 3D stuff (compared to just using the `canvas` API).
 
