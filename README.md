@@ -21,6 +21,8 @@ GPU <- WebGL = rasterization engine <- vertex shader function (**positions**) + 
 
 "Positions" are given in terms of "clip space" coordinates: (-1 to 1; -1 to 1).
 
+`vec4`s are used for calculation convenience and performance, even though we're displaying 2D/3D graphics. This avoids having to do vector conversions every time.
+
 ## Try the demo
 
 ```bash
