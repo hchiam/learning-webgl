@@ -12,7 +12,7 @@ Examples: <https://github.com/mdn/webgl-examples/tree/gh-pages/tutorial>
 
 2 key things for WebGL: **positions** and **colours**.
 
-GPU <- WebGL = rasterization engine <- vertex shader function (**positions**) + fragment shader function (**colours**) <- data <- 4 ways to give data to a shader:
+GPU <- WebGL = rasterization engine <- vertex shader function (**positions**) + fragment shader function (**colours**) <- data <- [4 ways to give data to a shader](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Data):
 
 1. buffers (binary data) and attributes (how to interpret the buffers)
 2. uniforms (global variables)
