@@ -20,3 +20,9 @@ GPU <- WebGL = rasterization engine <- vertex shader function (**positions**) + 
 4. varyings (way for a vertex shader to pass data to be interpolated while running the fragment shader)
 
 "Positions" are given in terms of "clip space" coordinates: (-1 to 1; -1 to 1).
+
+## Try the demo
+
+```bash
+open index.html
+```
