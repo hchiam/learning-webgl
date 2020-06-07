@@ -9,3 +9,12 @@ Use your GPU to draw/animate 2D and 3D stuff in a `<canvas>`. More math-y 3D stu
 Examples: <https://github.com/mdn/webgl-examples/tree/gh-pages/tutorial>
 
 `three.js` is a framework that makes it easier to build 3D apps and games by encapsulating WebGL: <https://threejs.org>
+
+2 key things for WebGL: **positions** and **colours**.
+
+GPU <- WebGL = rasterization engine <- vertex shader function (**positions**) + fragment shader function (**colours**) <- data <- 4 ways to give data to a shader:
+
+1. buffers (binary data) and attributes (how to interpret the buffers)
+2. uniforms (global variables)
+3. textures (random-access arrays of data)
+4. varyings (way for a vertex shader to pass data to be interpolated while running the fragment shader)
